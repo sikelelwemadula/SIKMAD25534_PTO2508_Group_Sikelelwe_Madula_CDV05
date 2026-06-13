@@ -73,40 +73,6 @@ nav a.current-page{
     border: 3px solid #FF7E5F ;
 } 
 
-
-
-/*@media(max-width:995px){
-    nav{
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 40%;
-        border-left: 3px solid #FF7E5F;
-        border-bottom: 3px solid #FF7E5F;
-        border-bottom-left-radius: 10px;
-        background-color: #161616;
-        border-top: 3px solid rgba(0,0,0,0.1);
-
-    }
-
-    nav.current-page{
-        display: block;
-    }
-
-    nav a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    nav a:hover,
-    nav a.current-page{
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #FF7E5F;
-    }
-}*/
-
  section{
         min-height: 100vh;
         padding: 5rem 9% 5rem;
@@ -236,6 +202,21 @@ p {
     font-size: 1.6rem;
     line-height: 1.6;
 }
+
+
+.text-group a{
+    
+    color: #f5E8D8;
+    margin-left: 10rem;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+} 
+
+.text-group a:hover,
+.text-group a.current-page{
+    color: #1c1c1c;
+    border-bottom: 3px solid #1c1c1c;}
+
 
 /*Contact Section*/
 .contacts-content{
