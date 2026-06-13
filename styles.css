@@ -65,12 +65,13 @@ nav a.current-page{
 }
 
 .profile-img{
-    width: 80%;
-    height: 80%;
+    width: 450px;
+    height: 550px;
     object-fit: cover;
     border-radius: 10%;
+    margin-top: 4rem;
     border: 3px solid #FF7E5F ;
-}
+} 
 
 
 
@@ -187,7 +188,7 @@ p {
 }
 
 /* Individual Project Card */
-article {
+.projects-content {
     margin-top: 10rem;
     padding: 2rem;
     border-radius: 1rem;
@@ -196,11 +197,11 @@ article {
     flex: 1; /* Spreads cards evenly across the screen */
 } 
 
-article {
+.projects-content {
   background: radial-gradient(circle, #FF7E5F 60%, #D65A42 100%);
   /* #D65A42 is a darker shade of your original color */
 
-  color: white; /* Ensure text is readable */
+  color: #F5E8D8; /* Ensure text is readable */
 }
 
 
@@ -233,5 +234,37 @@ h2 {
 
 p {
     font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+/*Contact Section*/
+.contacts-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #FF7E5F;
+    background: radial-gradient(circle, #FF7E5F 60%, #D65A42 100%);
+    gap: 2rem;
+    width: 70rem;
+    height: 40rem;
+    font-size: 4rem;
+    margin:auto;
+    margin-top: 15rem;
+}
+
+.contacts-content a{
+    color: #F5E8D8;
+    transition: all 0.3s ease;
+    margin-left: rem;
+
+}
+
+.contacts-content a:hover{
+    color: #1C1C1C;
+    transform: scale(1.1);
+}
+
+.contacts-content ul{
+    list-style: none;
+    font-size: 2rem;
     line-height: 1.6;
 }
